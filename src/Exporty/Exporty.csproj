@@ -8,6 +8,7 @@
         <PackageProjectUrl>https://github.com/turhany/Exporty</PackageProjectUrl>
         <RepositoryUrl>https://github.com/turhany/Exporty</RepositoryUrl>
         <PackageTags>Export, Excel, Csv, Pdf</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
