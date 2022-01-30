@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Authors>Türhan Yıldırım</Authors>
+        <PackageIcon>exporty.png</PackageIcon>
+        <Description>Simple excel, csv, pdf data table export library.</Description>
+        <PackageProjectUrl>https://github.com/turhany/Exporty</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/turhany/Exporty</RepositoryUrl>
+        <PackageTags>Export, Excel, Csv, Pdf</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ClosedXML" Version="0.95.4" />
+      <PackageReference Include="CsvHelper" Version="27.2.1" />
+      <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\img\exporty.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+        <None Include="..\..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>
