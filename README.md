@@ -45,6 +45,14 @@ class Program
         Console.WriteLine($"PDF Exported file path: {pdfExportedFile}");
     }
 }
+
+public class User
+{
+    [Export(ColumnName = "First Name")]
+    public string FirstName { get; set; }
+    [Export(ColumnName = "Last Name")]
+    public string LastName { get; set; }
+}
 ```
 
 ![alt tag](/img/sample.jpg)  
