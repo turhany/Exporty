@@ -59,10 +59,15 @@ public class User
 
 ### Release Notes
 
+#### 1.0.2
+* ClosedXML version updated to 0.97.0
+* CsvHelper version updated to 30.0.0
+* iTextSharp.LGPLv2.Core version updated to 1.8.0
+
 #### 1.0.1
 * ClosedXML version updated to 0.96.0
 * CsvHelper version updated to 28.0.1
-* iTextSharp.LGPLv2.Core version updated to 1.8.0
+* iTextSharp.LGPLv2.Core version updated to 1.9.2
 
 #### 1.0.0
 * Base Release
