@@ -9,13 +9,13 @@
         <RepositoryUrl>https://github.com/turhany/Exporty</RepositoryUrl>
         <PackageTags>Export, Excel, Csv, Pdf</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageVersion>1.0.4</PackageVersion>
+		<PackageVersion>1.0.5</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="ClosedXML" Version="0.102.0" />
-      <PackageReference Include="CsvHelper" Version="30.0.1" />
-      <PackageReference Include="iTextSharp.LGPLv2.Core" Version="3.4.3" />
+      <PackageReference Include="ClosedXML" Version="0.105.0" />
+      <PackageReference Include="CsvHelper" Version="33.1.0" />
+      <PackageReference Include="iTextSharp.LGPLv2.Core" Version="3.7.8" />
     </ItemGroup>
 
     <ItemGroup>

@@ -16,7 +16,7 @@ DI Registration:
 ```cs
   public void ConfigureServices(IServiceCollection services)
   {
-      services.AddScoped<IExporty, Concrete.Exporty>();
+      services.AddSingleton<IExporty, Concrete.Exporty>();
   }
 ```
 
@@ -58,6 +58,11 @@ public class User
 ![alt tag](/img/sample.jpg)  
 
 ### Release Notes
+
+#### 1.0.5
+* ClosedXML version updated to 0.105.0
+* CsvHelper version updated to 33.1.0
+* iTextSharp.LGPLv2.Core version updated to 3.7.8
 
 #### 1.0.4
 * ClosedXML version updated to 0.102.0
